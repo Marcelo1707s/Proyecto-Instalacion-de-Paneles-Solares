@@ -3,12 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package DispositivoSolar;
+import java.io.Serializable;
 
 /**
  *
  * @author Usuario
  */
-public abstract class DispositivoSolar {
+
+public abstract class DispositivoSolar implements Serializable {
     private String nombre;
     private double eficiencia;
 

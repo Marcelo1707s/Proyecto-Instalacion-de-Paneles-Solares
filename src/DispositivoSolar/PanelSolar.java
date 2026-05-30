@@ -19,23 +19,18 @@ public abstract class PanelSolar extends DispositivoSolar {
     public double getPotenciaWp() {
         return potenciaWp;
     }
-
     public void setPotenciaWp(double potenciaWp) {
         this.potenciaWp = potenciaWp;
     }
-
     public double getArea() {
         return area;
     }
-
     public void setArea(double area) {
         this.area = area;
     }
-
     public double getCosto() {
         return costo;
     }
-
     public void setCosto(double costo) {
         this.costo = costo;
     }

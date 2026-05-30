@@ -12,11 +12,20 @@ public class Inversor extends DispositivoSolar {
         this.costo = costo;
     }
 
-    @Override
+    public double getCosto() {
+        return costo;
+    }
+    public void setCosto(double costo) {
+        this.costo = costo;
+    }
+  
+    
+     @Override
     public double procesarEnergia(double entrada, double temperatura) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+       
+        return entrada * this.getEficiencia();
     }
 
-
+    
     
 }

@@ -11,8 +11,14 @@ public class PanelMonocristalino extends PanelSolar {
     }
 
     @Override
-    public double procesarEnergia(double entrada, double temperatura) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public double procesarEnergia(double radiacionSolar, double temperaturaAmbiente) {
+       
+        double tPanel = temperaturaAmbiente + 25;
+        double coefTemperatura = -0.0035;
+
+        double eficienciaReal = this.getEficiencia() * (1 + coefTemperatura * (tPanel - 25));
+       
+        return (this.getPotenciaWp() / 1000.0) * radiacionSolar * 30.0 * (eficienciaReal / this.getEficiencia());
     }
 
    

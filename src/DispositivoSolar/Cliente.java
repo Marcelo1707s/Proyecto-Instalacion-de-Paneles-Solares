@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package DispositivoSolar;
+import Excepciones.DatoInvalidoException;
 import java.io.Serializable;
 
 public class Cliente implements Serializable {
@@ -13,7 +14,14 @@ public class Cliente implements Serializable {
     private double presupuesto;    
     private ZonaGeografica ubicacion; 
 
-    public Cliente(String nombre, double consumoMensual, double tarifaElectrica, double areaDisponible, double presupuesto, ZonaGeografica ubicacion) {
+    public Cliente(String nombre, double consumoMensual, double tarifaElectrica, 
+                   double areaDisponible, double presupuesto, ZonaGeografica ubicacion) throws DatoInvalidoException {
+        if (nombre == null || nombre.trim().isEmpty()) {
+            throw new DatoInvalidoException("El nombre del cliente no puede estar vacío.");
+        }
+        if (consumoMensual <= 0 || tarifaElectrica <= 0 || areaDisponible <= 0 || presupuesto <= 0) {
+            throw new DatoInvalidoException("Los valores numericos del cliente deben ser mayores a cero.");
+        }
         this.nombre = nombre;
         this.consumoMensual = consumoMensual;
         this.tarifaElectrica = tarifaElectrica;

@@ -66,5 +66,7 @@ public class Cliente implements Serializable {
     public void setUbicacion(ZonaGeografica ubicacion) {
         this.ubicacion = ubicacion;
     }
+
+   
     
 }

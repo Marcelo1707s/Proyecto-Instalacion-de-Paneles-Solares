@@ -11,6 +11,7 @@ import DispositivoSolar.PanelSolar;
 import DispositivoSolar.ZonaGeografica;
 import Excepciones.DatoInvalidoException;
 import Guardar.GestorPersistencia;
+import InterfazGrafica.Interfaz;
 import Simulador.SimuladorSolar;
 import java.io.IOException;
 
@@ -20,9 +21,24 @@ import java.io.IOException;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Prueba");
-
-        try {
+        
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                // Instanciamos tu ventana y la hacemos visible
+                Interfaz ventana = new Interfaz();
+                ventana.setLocationRelativeTo(null); // Esto hace que la ventana aparezca en el centro de la pantalla
+                ventana.setVisible(true);
+            }
+        });
+        
+        
+        
+        
+        
+        
+       // System.out.println("Prueba");
+        
+        /*try {
            
             ZonaGeografica zona = new ZonaGeografica("Asuncion", "Paraguay", 5.2, 28.0);
             System.out.println("1. Zona Geografica: " + zona.getNombreCiudad() + ", " + zona.getPais());
@@ -85,6 +101,7 @@ public class Main {
             System.err.println("Error de lectura/escritura de archivo: " + e.getMessage());
         } catch (ClassNotFoundException e) {
             System.err.println("Error al reconstruir la clase cargada: " + e.getMessage());
-        }
+        }*/
+        
     }
 }

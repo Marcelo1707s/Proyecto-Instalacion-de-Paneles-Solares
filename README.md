@@ -1,4 +1,4 @@
-# ☀️ Simulador de Instalación de Paneles Solares
+# ☀️ Instalación de Paneles Solares
 
 ##  Descripción del problema abordado
 El cálculo para una instalación de energía solar suele requerir conocimientos técnicos y Las estimaciones manuales a menudo ignoran restricciones del mundo real, lo que genera presupuestos irreales. 

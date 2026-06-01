@@ -15,17 +15,20 @@ Este proyecto busca resolver ese problema mediante una la implementación de con
 
 ### 1. Pestaña de Ingreso de Datos 
 El usuario ingresa sus datos.
-<img width="977" height="761" alt="InterfazGrafica1" src="https://github.com/user-attachments/assets/3ffaaa00-c543-4b08-8b66-6d0c7a2d1173" />
+<img width="882" height="757" alt="InterfazGrafica2" src="https://github.com/user-attachments/assets/ad6b2e31-4f31-43a8-a2cd-eb3787db96e0" />
+
 
 ### 2. Pestaña de Resultados (Análisis y Diagnóstico)
 El programa devuelve el análisis financiero y las observaciones técnicas de la instalación.
-<img width="882" height="757" alt="InterfazGrafica2" src="https://github.com/user-attachments/assets/9f4199a6-cadb-4c6f-aca2-6c8c682155f8" />
+<img width="1315" height="755" alt="InterfazGrafica3" src="https://github.com/user-attachments/assets/99625d6a-3c0b-4513-86e7-4a13a54909cd" />
+
 
 
 
 ### 3. Pestaña de Carga de Proyectos
 Demostración del sistema de guardado y carga de archivos binarios.
-<img width="1315" height="755" alt="InterfazGrafica3" src="https://github.com/user-attachments/assets/1d6e76f9-5b41-4f02-b438-d346bd9ad2b9" />
+<img width="886" height="721" alt="InterfazGrafica4png" src="https://github.com/user-attachments/assets/a2856171-5ded-4d5b-88c9-c1a815858fb3" />
+
 
 
 ---

@@ -3,7 +3,7 @@
 ##  Descripción del problema abordado
 El cálculo para una instalación de energía solar suele requerir conocimientos técnicos y Las estimaciones manuales a menudo ignoran restricciones del mundo real, lo que genera presupuestos irreales. 
 
-Este proyecto busca resolver ese problema mediante una la implementación de conocimientos en el lenguaje java junto a una interfaz gráfica que actúa como un *asesor virtual*. El sistema aborda la viabilidad técnica y financiera evaluando el consumo eléctrico del usuario, su disponibilidad presupuestaria, la capacidad de espacio disponible. De esta forma, el programa calcula el equipamiento necesario, la inversión total necesaria y el tiempo de retorno de la inversión, imprimiendo de ser necesario correcciones de tipo presupuestarias, de capacidad etc. con el fin de garantizar la la viabilidad del proyecto tratando de cumplir la demanda de consumo.
+Este proyecto busca resolver ese problema mediante la implementación de conocimientos en el lenguaje java junto a una interfaz gráfica que actúa como un *asesor virtual*. El sistema aborda la viabilidad técnica y financiera evaluando el consumo eléctrico del usuario, su disponibilidad presupuestaria, la capacidad de espacio disponible. De esta forma, el programa calcula el equipamiento necesario, la inversión total necesaria y el tiempo de retorno de la inversión, imprimiendo de ser necesario correcciones de tipo presupuestarias, de capacidad etc. con el fin de garantizar la viabilidad del proyecto tratando de cumplir la demanda de consumo.
 
 ---
 

@@ -46,7 +46,8 @@ Previamente:
    - Diríjase al explorador de proyectos a la izquierda.
    - Haga clic derecho sobre la raíz del proyecto.
    - Seleccione **"Run"** (o presione la tecla `F6`).
-   - <img width="816" height="337" alt="image" src="https://github.com/user-attachments/assets/624a09e5-3687-4cb2-bc58-498a34cc7ce0" />
+  <img width="816" height="101" alt="image" src="https://github.com/user-attachments/assets/39bc8098-c42e-49c8-9f01-5102dd55c0ff" />
+
 
 3. **Uso del sistema:** El sistema lanzará automáticamente la Interfaz Gráfica. Navegue por la primera pestaña para cargar los datos y presione el boton Calcular para ver las observaciones automáticas en la pestaña de resultados. Puede usar los botones Guardar Proyecto y Cargar Archivo para probar el sistema de guardado y visualización de datos.
 

@@ -49,7 +49,7 @@ Previamente:
   <img width="816" height="101" alt="image" src="https://github.com/user-attachments/assets/39bc8098-c42e-49c8-9f01-5102dd55c0ff" />
 
 
-3. **Uso del sistema:** El sistema lanzará automáticamente la Interfaz Gráfica. Navegue por la primera pestaña para cargar los datos y presione el boton Calcular para ver las observaciones automáticas en la pestaña de resultados. Puede usar los botones Guardar Proyecto y Cargar Archivo para probar el sistema de guardado y visualización de datos.
+3. **Uso del sistema:** El sistema lanzará automáticamente la Interfaz Gráfica. Navegue por la primera pestaña para cargar los datos, tener en cuenta el presupuesto en dolares y las unidades de medida acotadas y presione el boton Calcular para ver las observaciones automáticas en la pestaña de resultados. Puede usar los botones Guardar Proyecto y Cargar Archivo para probar el sistema de guardado y visualización de datos.
 
 ---
 *Desarrollado Marcelo Caje.*
